@@ -1,0 +1,53 @@
+body{
+	color: #0D9454;
+	font: 1rem Courier New, sans-serif;
+	background: #F9F6E8;
+	font-weight: bold;
+
+}
+
+h1{
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	font: bold 1.5rem Courier, sans-serif;
+	margin: 0;
+	background-color: #D0FBE7;
+}
+
+ul{
+	position: relative;
+	text-decoration: none;
+
+}
+
+p {
+	position: relative;
+	line-height: 1.2rem;
+}
+
+h2{
+	font-size: 1.1rem;
+	bottom: 10;
+}
+
+h3{
+	font-size: 0.8rem;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #0D9454;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    color: #0D9454;
+}
