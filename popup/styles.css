@@ -6,12 +6,14 @@ body{
 	clear: both;
     display: inline-block;
     overflow: hidden;
-    white-space: nowrap;}
+    white-space: nowrap;
+    text-align: center;
+}
 
 h1{
 	position: relative;
 	text-align: center;
-	padding: 20px 0;
+	padding: 15px 20px;
 	font: bold 1.5rem Courier, sans-serif;
 	margin: 0;
 	background-color: #D0FBE7;

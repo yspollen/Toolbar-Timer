@@ -5,17 +5,24 @@
     </head>
     <body>
         <h1>Toolbar Timer</h1><br>
+
+        <!--form-->
         <form id="form">
-            Hours:<br> <input id="hour" type="text" value="0"><br>
-            Minutes:<br> <input id="minute" type="text" value="0"><br>                     
-            Seconds:<br> <input id="second" type="text" value="0"><br>
+            Hours:<br> <input id="hour" type="text" placeholder="0" autocomplete="off"><br>
+            Minutes:<br> <input id="minute" type="text" placeholder="0" autocomplete="off"><br>
+            Seconds:<br> <input id="second" type="text" placeholder="0" autocomplete="off"><br>
         </form>
+
         <h3 id="alert">Please enter a valid time.</h3>
 
         <h2 id="display">0h 0m 0s</h2>
+
+        <!--Buttons-->
         <button id="b1" type="button">start</button>
         <button id="b2" type="button">cancel</button>
+        <button id="b3" type="button">okay</button>
 
+        <!--scripts-->
         <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
         <script src='popup.js'></script>
     </body>
