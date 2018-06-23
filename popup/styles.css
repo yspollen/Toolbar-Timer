@@ -3,8 +3,10 @@ body{
 	font: 1rem Courier New, sans-serif;
 	background: #F9F6E8;
 	font-weight: bold;
-
-}
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;}
 
 h1{
 	position: relative;
