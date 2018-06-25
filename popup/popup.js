@@ -41,7 +41,10 @@ function startCountDown() {
         var second = $('#second').val();
         
         //Check for invalid inputs
-        if (minute > 59 || second > 59){
+        if (isNaN(hour) || isNaN(minute) || isNaN(second)){
+            validTime = false;
+        }
+        else if (minute > 59 || second > 59){
             validTime = false;
         }
         else if (hour == 0 && minute == 0 && second == 0){
