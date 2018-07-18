@@ -64,6 +64,11 @@ function startCountDown() {
             $("#b3").hide();
             $('#alert').hide();
             $('#form').hide();
+
+            //Reset inputs
+            $('#hour').val("");
+            $('#minute').val("");
+            $('#second').val("");
             
             destinationTime = second*(1000) + minute*(1000*60) + hour*(1000*3600) + startTime + 1000;
 
