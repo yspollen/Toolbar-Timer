@@ -1,11 +1,12 @@
 # Toolbar Timer
-This is a Chrome extension that attaches a countdown timer to your web browser's toolbar. <br/> <br/>
-You can access it at ease at the upper-right corner of your browser window and prevent overcrowding windows when performing tasks like taking a practice exam. <br/> <br/>
+This is a Chrome extension that attaches a countdown timer to your web browser's toolbar. <br/>
+It can be conveniently accessed at the upper-right corner of your browser window and it will stay there like a rock. <br/>
+The next time you're doing work like taking a practice exam, you would be constantly able to see how much time you have left on that clock. <br/><br/>
 
 ## Packing the Extension
 - Navigate to chrome://extensions/ <br/>
 - Click on "LOAD EXTENSION" <br/>
-- Select "Toolbar-Timer" <br/> <br/>
+- Select "Toolbar-Timer" <br/><br/>
 
 ## To Stabilize the Pop-Up Window
 - Right click on the pop-up window (not the icon) & select "inspect" <br/>
