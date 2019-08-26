@@ -44,10 +44,16 @@ function startCountDown() {
         if (isNaN(hour) || isNaN(minute) || isNaN(second)){
             validTime = false;
         }
-        else if (minute > 59 || second > 59){
+        else if (hour > 23 || minute > 59 || second > 59){
+            validTime = false;
+        }
+        else if (hour < 0 || minute < 0 || second < 0){
             validTime = false;
         }
         else if (hour == 0 && minute == 0 && second == 0){
+            validTime = false;
+        }
+        else if (!Number.isInteger(Number(hour)) || !Number.isInteger(Number(minute)) || !Number.isInteger(Number(second))){
             validTime = false;
         }
 
